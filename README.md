@@ -8,4 +8,4 @@ Usage:
 Support ext:log 1 2 3 4 5 6 7 8 9 
 
 Screenshot:
-![image](https://github.com/OwenSu/AndroidLogger/images/Screenshot.png)
+![image](https://github.com/OwenSu/AndroidLogger/blob/master/images/Screenshot.png)
