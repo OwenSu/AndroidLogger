@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="Windows-1252" ?>
+<NotepadPlus>
+    <Languages>
+        <Language name="AndroidLogger" ext="log 1 2 3 4 5 6 7 8 9 10">
+            <Keywords name="0">V</Keywords>
+            <Keywords name="1">D</Keywords>
+            <Keywords name="2">I</Keywords>
+            <Keywords name="3">W</Keywords>
+            <Keywords name="4">E</Keywords>
+            <!-- user log level -->
+            <Keywords name="5">F</Keywords>
+            <!-- user log tag type1-->
+            <Keywords name="6">System.err am_crash</Keywords>
+            <!-- user log tag type2-->
+            <Keywords name="7">kernel</Keywords>
+            <!-- user log tag type3-->
+            <Keywords name="8">RILJ</Keywords>
+        </Language>
+    </Languages>
+    <LexerStyles>
+        <LexerType name="AndroidLogger" desc="AndroidLogger" ext="" >
+            <WordsStyle name="COLOR_VERBOSE" styleID="0" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" keywordClass="0" />
+            <WordsStyle name="COLOR_DEBUG" styleID="1" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" keywordClass="1" />
+            <WordsStyle name="COLOR_INFO" styleID="2" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" keywordClass="2" />
+            <WordsStyle name="COLOR_WARNING" styleID="3" fgColor="FF00FF" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" keywordClass="3" />
+            <WordsStyle name="COLOR_ERROR" styleID="4" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" keywordClass="4" />
+            <WordsStyle name="COLOR_USER_LEVEL" styleID="5" fgColor="FF0000" bgColor="000000" fontName="" fontStyle="0" fontSize="" keywordClass="5" />
+            <WordsStyle name="COLOR_USER_TAG1" styleID="6" fgColor="FF0080" bgColor="000000" fontName="" fontStyle="1" fontSize="" keywordClass="6">XXX</WordsStyle>
+            <WordsStyle name="COLOR_USER_TAG2" styleID="7" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" keywordClass="7" />
+            <WordsStyle name="COLOR_USER_TAG3" styleID="8" fgColor="0000A0" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" keywordClass="8" />
+        </LexerType>
+    </LexerStyles>
+</NotepadPlus>
